@@ -1,0 +1,32 @@
+const appRoutes: Routes = [
+  {
+    path: 'dashboard',
+    component: DashboardPageComponent,
+  },
+{
+    path: 'login',
+     component: LoginPageComponent
+},
+{
+  path: '',
+   component: LoginPageComponent
+},
+];
+
+
+const routes: Routes = [
+  {
+      path: 'dashboard',
+      component: DashboardPageComponent,
+      children: [
+          {
+              path: 'ComOne',
+              component: ComponentOneComponent
+          },
+          {
+            path: 'ComTwo',
+            component: ComponentTwoComponent
+        }
+      ]
+  }
+];
