@@ -1,0 +1,9 @@
+angular snpted
+angular fles
+angular language service
+angular switcher
+auto rename tag
+bracket pair colorizer
+debugger for chrome
+material icon theme
+path intellisense
